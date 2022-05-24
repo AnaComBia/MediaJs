@@ -1,7 +1,8 @@
-const n1 = Number(Prompt("Digite sua primeira nota: "));
-const n2 = Number(Prompt("Digite sua segunda nota: "));
-const n3 = Number(Prompt("Digite sua terceira nota: "));
-const n4 = Number(Prompt("Digite sua quarta nota: "));
+
+const n1 = Number (prompt("Digite sua primeira nota: "));
+const n2 = Number (prompt("Digite sua segunda nota: "));
+const n3 = Number (prompt("Digite sua terceira nota: "));
+const n4 = Number (prompt("Digite sua quarta nota: "));
 
 if(n1 < 0 || n1 > 10 ||
    n2 < 0 || n2 > 10 ||
@@ -23,6 +24,6 @@ if(n1 < 0 || n1 > 10 ||
         resultado = "aprovado"
     }
 
-    alert ('Sua média final foi: ${media} e o seu resultado é: ${resultado}');
+    alert (`Sua média final foi: ${media} e o seu resultado é: ${resultado}`);
 
 }
