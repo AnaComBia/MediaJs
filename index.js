@@ -5,7 +5,7 @@ const n3 = Number (prompt("Digite sua terceira nota: "));
 const n4 = Number (prompt("Digite sua quarta nota: "));
 
 
-if(n1 === NaN || isNaN(n2) || isNaN(n3) || isNaN(n4) ||
+if(n1 == NaN || isNaN(n2) || isNaN(n3) || isNaN(n4) ||
    n1 < 0 || n1 > 10 ||
    n2 < 0 || n2 > 10 ||
    n3 < 0 || n3 > 10 ||
