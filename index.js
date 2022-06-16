@@ -4,10 +4,12 @@ const n2 = Number (prompt("Digite sua segunda nota: "));
 const n3 = Number (prompt("Digite sua terceira nota: "));
 const n4 = Number (prompt("Digite sua quarta nota: "));
 
-if(n1 < 0 || n1 > 10 ||
+
+if(isNaN(n1) || isNaN(n2) || isNaN(n3) || isNaN(n4) ||
+    n1 < 0 || n1 > 10 ||
    n2 < 0 || n2 > 10 ||
    n3 < 0 || n3 > 10 ||
-   n4 < 0 || n4 > 10) {
+   n4 < 0 || n4 > 10){
 
     alert("por favor digite números entre 0 e 10");
 
