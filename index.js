@@ -5,10 +5,7 @@ if(isNaN(n1)||
    n1 < 0 || n1 > 10){
 
     alert("por favor digite números entre 0 e 10");
-
-}else {
-    return n1;
-} 
+}
     
 const n2 = Number (prompt("Digite sua segunda nota: "));
 
